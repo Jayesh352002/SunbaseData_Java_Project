@@ -1,0 +1,16 @@
+<form>
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form2Example1" class="form-control" placeholder="Enter Email" name="email" [(ngModel)]="email"/>
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form2Example2" class="form-control" placeholder="Enter Password" name="password" [(ngModel)]="password"/>
+  </div>
+
+  <!-- Submit button -->
+  <button type="button" class="btn btn-primary btn-block mb-4" (click)="login()">Submit</button>
+
+</form>
+<router-outlet></router-outlet>

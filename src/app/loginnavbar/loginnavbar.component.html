@@ -1,0 +1,11 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">ConnectCustomers</a>
+    <form class="d-flex">
+      <button class="btn btn-outline-success" type="submit">Get Customers</button>
+      <button class="btn btn-outline-success" type="submit" (click)="openForm()" style="margin-left: 25px;">Add Customers</button>
+    </form>
+  </div>
+</nav>
+<app-getcustomer></app-getcustomer>
+<router-outlet></router-outlet>
